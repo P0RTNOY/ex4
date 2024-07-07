@@ -25,7 +25,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://https://https://github.com/P0RTNOY/ex4.git
+git clone https://github.com/P0RTNOY/ex4.git
 cd Url-Explorer
 Install dependencies for the backend:
 
