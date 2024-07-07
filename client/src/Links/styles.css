@@ -1,0 +1,43 @@
+.links-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .url-heading {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .link-item {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #e7f0ff;
+  }
+  
+  .link-item:hover {
+    background-color: #d0e7ff;
+    color: #0056b3;
+  }
+  
+  .no-links-message {
+    color: #777;
+    font-style: italic;
+  }
+  

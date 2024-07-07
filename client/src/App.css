@@ -1,0 +1,55 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+.inputs {
+  margin-bottom: 1rem;
+}
+
+.urlInput {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active:not(:disabled) {
+  background-color: #004089;
+}
+
+button:focus {
+  box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5);
+}
+
+.error-message {
+  color: #dc3545;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
